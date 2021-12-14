@@ -4,7 +4,6 @@
 # APP_NAME="lyz7805-v2ray"
 APP_NAME='tkisme-v2'
 REGION="hkg"
-#UUID="e3b54be4-302e-47bb-973d-f5d381f51d9d"
 
 if ! command -v flyctl >/dev/null 2>&1; then
     printf '\e[33mCould not resolve command - flyctl. So, install flyctl first.\n\e[0m'
