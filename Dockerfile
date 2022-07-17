@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.16.0
 
 WORKDIR /root
 COPY v2ray.sh /root/v2ray.sh
