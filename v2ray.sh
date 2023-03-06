@@ -79,7 +79,7 @@ cat <<EOF >/etc/v2ray/config.json
                   "path": "/DNKOtYJx/"
                 }
             },
-            "domain": "hy.tkisme.tk",
+            "domain": "northflank.tkisme.tk",
             "sniffing": {
 				"enabled": true,
 				"destOverride": [
