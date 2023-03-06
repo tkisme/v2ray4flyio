@@ -75,15 +75,18 @@ cat <<EOF >/etc/v2ray/config.json
             },
             "streamSettings": {
                 "network": "ws",
-                "security": "tls",
                 "wsSettings": {
-                  "path": "/DNKOtYJx/",
-                  "headers": {
-                    "Host": "baidu.com"
-                  }
+                  "path": "/DNKOtYJx/"
                 }
             },
-            "domain": "hy.tkisme.tk"
+            "domain": "hy.tkisme.tk",
+            "sniffing": {
+				"enabled": true,
+				"destOverride": [
+					"http",
+					"tls"
+				]
+			}
         }
     ],
     "outbounds": [
