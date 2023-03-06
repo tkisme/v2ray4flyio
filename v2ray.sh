@@ -57,7 +57,7 @@ mv geosite.dat geoip.dat /usr/local/share/v2ray/
 cat <<EOF >/etc/v2ray/config.json
 {
     "log": {
-        "loglevel": "warning"
+        "loglevel": "info"
     },
     "inbounds": [
         {
