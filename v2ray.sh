@@ -63,7 +63,7 @@ cat <<EOF >/etc/v2ray/config.json
         {
             "listen": "0.0.0.0",
             "port": 443,
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "clients": [
                     {
@@ -74,7 +74,10 @@ cat <<EOF >/etc/v2ray/config.json
                 "decryption": "none"
             },
             "streamSettings": {
-                "network": "http"
+                "network": "ws",
+                "wsSettings": {
+                  "path": "/ray1"
+                }
             },
             "domain": "northflank.tkisme.tk"
         }
