@@ -81,7 +81,7 @@ cat <<EOF >/etc/v2ray/config.json
                   "headers": {
                     "Host": "baidu.com"
                   }
-                },
+                }
             },
             "domain": "hy.tkisme.tk"
         }
