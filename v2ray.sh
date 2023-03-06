@@ -49,7 +49,7 @@ STR=$(cat < v2ray.zip.dgst | grep 'SHA512' | head -n1)
 echo "Prepare to use"
 unzip v2ray.zip && chmod +x v2ray
 #mv v2ray /usr/bin/
-mv xray /usr/bin/
+mv xray /usr/bin/v2ray
 mv geosite.dat geoip.dat /usr/local/share/v2ray/
 # mv config.json /etc/v2ray/config.json
 
