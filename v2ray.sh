@@ -63,7 +63,7 @@ cat <<EOF >/etc/v2ray/config.json
         {
             "listen": "0.0.0.0",
             "port": 443,
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "clients": [
                     {
@@ -74,19 +74,9 @@ cat <<EOF >/etc/v2ray/config.json
                 "decryption": "none"
             },
             "streamSettings": {
-                "network": "ws",
-                "wsSettings": {
-                  "path": "/DNKOtYJx/"
-                }
+                "network": "http"
             },
-            "domain": "northflank.tkisme.tk",
-            "sniffing": {
-				"enabled": true,
-				"destOverride": [
-					"http",
-					"tls"
-				]
-			}
+            "domain": "northflank.tkisme.tk"
         }
     ],
     "outbounds": [
