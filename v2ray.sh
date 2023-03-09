@@ -79,7 +79,7 @@ cat <<EOF >/etc/v2ray/config.json
                   "path": "/ray1"
                 }
             },
-            "domain": "northflank.tkisme.tk"
+            "domain": "$DOMAIN"
         }
     ],
     "outbounds": [
