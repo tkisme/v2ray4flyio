@@ -9,3 +9,4 @@ RUN set -ex \
     && chmod +x /root/v2ray.sh
 
 CMD [ "/root/v2ray.sh" ]
+EXPOSE 443
